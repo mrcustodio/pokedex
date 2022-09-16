@@ -1,4 +1,4 @@
-## Running the dev server
+## Webdev Take Home Assignment
 
 First, install the dependencies:
 
@@ -6,7 +6,7 @@ First, install the dependencies:
 yarn install
 ```
 
-Then run the dev server
+Then run the development server
 
 ```bash
 yarn dev
