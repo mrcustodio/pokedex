@@ -27,7 +27,7 @@ export class PokedexClient {
   /**
    * Returns a list of pokemon filtered by name and or type
    */
-  listPokemon({ name, type, limit = 100 }: IPokemonListProps) {
+  listPokemon({ name, type, limit }: IPokemonListProps) {
     let response: Pokemon[] = []
 
     /* Search for pokemon name and fill the response array */
